@@ -38,13 +38,11 @@ function onCellClicked() {
         var cellnumber = this.getAttribute("data-cellnumber");
         tictactoe.scores[tictactoe.player] += Math.pow(2, cellnumber);
         tictactoe.player = tictactoe.player === "X" ? "O" : "X";
-/*
         if (isWin(tictactoe.scores[tictactoe.player])) {
             alert(tictactoe.player + " wins!");
             tictactoe = newGame();
         } else if (tictactoe.turns === 9) {
             alert("Draw!");
             tictactoe = newGame();
-*/        
     }
 }
