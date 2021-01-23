@@ -44,5 +44,6 @@ function onCellClicked() {
         } else if (tictactoe.turns === 9) {
             alert("Draw!");
             tictactoe = newGame();
+        }
     }
 }
