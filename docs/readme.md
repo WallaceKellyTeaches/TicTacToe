@@ -1,3 +1,5 @@
-# TicTacToe demo
+# How to use this software.
 
-This is a demo.
+1. Choose a side... either X's or O's.
+2. Click in a square.
+3. Good luck!
